@@ -64,7 +64,7 @@ char	*get_next_line(int fd)
 	char		*buf;
 	static char	*resto[1024];
 
-	if (fd < 0 || BUFFER_SIZE <= 0 || fd > 1024) // Devia ser um valor superior para nao dar problema com o buffer size
+	if (fd < 0 || BUFFER_SIZE <= 0 || fd > 1024)
 		return (NULL);
 	buf = malloc(sizeof * buf * (BUFFER_SIZE + 1));
 	if (!buf)
