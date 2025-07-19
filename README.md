@@ -32,7 +32,7 @@ The goal is to create a function that:
   - `get_next_line_utils.c`: Helper functions.
 
 - **Bonus Version**:
-  - `get_next_line_bonus.c`: Implementation supporting multiple file descriptors.
+  - `get_next_line_bonus.c`: Main Implementation for the bonus version.
   - `get_next_line_bonus.h`: Header file for the bonus version.
   - `get_next_line_utils_bonus.c`: Helper functions for the bonus version.
 
